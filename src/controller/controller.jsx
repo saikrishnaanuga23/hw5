@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import View from './view';
-import { fetchActivity } from './model';
+import View from '../view/view';
+import { fetchActivity } from '../model/model';
 
 const Controller = () => {
   const [activity, setActivity] = useState('');
